@@ -1,4 +1,14 @@
-//1. Create a new React app.
+//jshint esversion: 6
+import React from "react";
+import ReactDom from "react-dom";
+import App, {Foot} from './components/App';
+
+
+ReactDom.render(
+    <div><App /></div>,document.getElementById("root")
+);
+
+
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
 //to show the Keeper App name in an <h1>.
